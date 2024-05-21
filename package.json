@@ -1,9 +1,11 @@
 {
   "name": "tea-forliann",
-  "version": "1.1.5",
-  "description": "",
+  "version": "2.1.0",
+  "description": "Updated version mk. 2",
   "main": "index.js",
   "scripts": {
+    "start": "node src/index.js",
+    "lint": "eslint src/**/*.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -26,5 +28,10 @@
     "syncso": "^1.1.4",
     "tea-triplble": "^1.1.4",
     "zetaiyazeta": "^1.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.3.0",
+    "eslint": "^9.3.0",
+    "globals": "^15.3.0"
   }
 }
